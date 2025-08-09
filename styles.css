@@ -1,0 +1,89 @@
+/* Загальні стилі */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b1d3a;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* 🌌 Фонове зображення */
+.background img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* 🌙 Декоративний елемент */
+.moon-stars img {
+  width: 120px;
+  margin: 40px auto 20px;
+  display: block;
+}
+
+/* 🧘 Іконки */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.icon-block {
+  width: 100px;
+}
+
+.icon-block img {
+  width: 80px;
+  height: auto;
+}
+
+.icon-block p {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #ffd966;
+}
+
+/* 📚 Розділи курсу */
+.course-section {
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.course-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #ffd966;
+}
+
+.course-section img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 217, 102, 0.3);
+}
+
+.course-section p {
+  margin-top: 20px;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #e0e0e0;
+}
+
+/* 📱 Адаптивність */
+@media (max-width: 600px) {
+  .icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-block {
+    margin-bottom: 20px;
+  }
+}

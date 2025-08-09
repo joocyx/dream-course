@@ -1,0 +1,17 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#0b1d3a"/>
+
+  <!-- Crescent Moon -->
+  <path d="M180,150 A60,60 0 1,1 120,150 A40,40 0 1,0 180,150" fill="#f6e8b1"/>
+
+  <!-- Large Star -->
+  <g transform="translate(220,80)">
+    <polygon points="0,-10 2,-2 10,0 2,2 0,10 -2,2 -10,0 -2,-2" fill="#ffd966"/>
+  </g>
+
+  <!-- Small Stars -->
+  <circle cx="60" cy="60" r="3" fill="#ffd966"/>
+  <circle cx="90" cy="200" r="2.5" fill="#ffd966"/>
+  <circle cx="250" cy="180" r="2" fill="#ffd966"/>
+</svg>
